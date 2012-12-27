@@ -1,7 +1,7 @@
 module Spree
   module Core
     class Engine < ::Rails::Engine
-      isolate_namespace Spree
+      #isolate_namespace Spree
       engine_name 'spree'
 
       config.middleware.use "Spree::Core::Middleware::SeoAssist"
